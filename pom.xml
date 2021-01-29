@@ -58,7 +58,6 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
-    
 
     <!-- Databases - Uses HSQL by default -->
     <dependency>
@@ -219,7 +218,7 @@
     </license>
   </licenses>
 
-  <repositories>
+<repositories>
     <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
@@ -228,17 +227,15 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
-     <repository>
-        <id>central</id>
-        <name>Central Repository</name>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <layout>default</layout>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
+    <repository>
+      <id>spring-milestones</id>
+      <name>Spring Milestones</name>
+      <url>https://repo.spring.io/milestone</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
     </repository>
   </repositories>
-  
 
   <pluginRepositories>
     <pluginRepository>
@@ -258,4 +255,5 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+
 </project>

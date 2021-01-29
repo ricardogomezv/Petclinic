@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'about')}">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+       <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+ <body>
+    <br>
+    <br>
+    <div class="col-md-6 offset-md-3" style="background-color:#94bbe9;" >
+        <br>
+        <center>
+          <img class="img-responsive" src="../static/resources/images/rick.jpg" th:src="@{/resources/images/rick.jpg}" width="400" height="400"/>
+          <br>
+        <h1> Ricardo Gómez</h1>
+        <p >Soy Ricardo Humberto Gómez Vázquez (183384) estudiante de Ingeniería en Desarrollo de Software, me gusta la implementacion de diseño en software y en mis tiempos libres realizo diseños digitales.</p>
+      </center>  
+      <br>
+      <br>    
+    </div>
+   
+    <div class="col-md-6 offset-md-3" style="background-color:#94bbe9;">
+        <br>
+        <center>
+          <img class="img-responsive" src="../static/resources/images/alessandra.jpeg" th:src="@{/resources/images/alessandra.jpeg}" width="400" height="400"/>
+        <br>
+        
+        <h1 >Alessandra Ruiz</h1>
+        <p>Soy Alessandra Ruíz Chacón (183384) estudiante de Ingeniería en Desarrollo de Software, en mis tiempos libres realizo ilustraciones digital, me considero alguien perseverante.</p>
+      </center>  
+      <br> 
+      <br>
+    </div>
+</body>
+
+</html>

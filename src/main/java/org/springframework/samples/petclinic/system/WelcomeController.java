@@ -11,4 +11,10 @@ class WelcomeController {
     public String welcome() {
         return "welcome";
     }
+    
+    @GetMapping("/acercade")
+    public String acerca() {
+        return "about";
+    }
+    
 }
